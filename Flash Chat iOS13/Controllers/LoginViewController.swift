@@ -2,8 +2,8 @@
 //  LoginViewController.swift
 //  Flash Chat iOS13
 //
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Created by Dylan Park on 3/3/21.
+//  Copyright © 2021 Angela Yu. All rights reserved.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
                 if let e = error {
                     print(e)
                 } else {
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: Constants.loginSegue, sender: self)
                 }
             }
         }

@@ -21,6 +21,8 @@
 		FC51A86B25EE32E000ECB827 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC51A86A25EE32E000ECB827 /* GoogleService-Info.plist */; };
 		FCC5637825EF49E500064B76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5637725EF49E500064B76 /* Constants.swift */; };
 		FCC5638025EF7B1800064B76 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5637F25EF7B1800064B76 /* Messages.swift */; };
+		FCC5638425F06E0300064B76 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5638225F06E0300064B76 /* MessageCell.swift */; };
+		FCC5638525F06E0300064B76 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC5638325F06E0300064B76 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		FC51A86A25EE32E000ECB827 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCC5637725EF49E500064B76 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FCC5637F25EF7B1800064B76 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = "Flash Chat iOS13/Messages.swift"; sourceTree = SOURCE_ROOT; };
+		FCC5638225F06E0300064B76 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		FCC5638325F06E0300064B76 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				FCC5638225F06E0300064B76 /* MessageCell.swift */,
+				FCC5638325F06E0300064B76 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				FCC5638525F06E0300064B76 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				FC51A86B25EE32E000ECB827 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
@@ -261,6 +268,7 @@
 				FCC5637825EF49E500064B76 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
+				FCC5638425F06E0300064B76 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

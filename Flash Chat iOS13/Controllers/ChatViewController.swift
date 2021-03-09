@@ -98,14 +98,14 @@ extension ChatViewController: UITableViewDataSource {
         let message = messages[indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
-        cell.label.text = messages.body
+        cell.label.text = message.body
         
         //Message from current user
         if message.sender == Auth.auth().currentUser?.email {
             cell.leftImageView.isHidden = true
             cell.rightImageView.isHidden = false
             cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.lightPurple)
-            cell.label.textColor = UIColor(neamed: K.BrandColors.purple)
+            cell.label.textColor = UIColor(named: K.BrandColors.purple)
         }
         
         //Message from another sender
@@ -113,7 +113,7 @@ extension ChatViewController: UITableViewDataSource {
             cell.leftImageView.isHidden = false
             cell.rightImageView.isHidden = true
             cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.purple)
-            cell.label.textColor = UIColor(neamed: K.BrandColors.lightPurple)
+            cell.label.textColor = UIColor(named: K.BrandColors.lightPurple)
         }
         
         return cell

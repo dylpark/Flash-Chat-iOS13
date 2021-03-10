@@ -44,7 +44,7 @@
 		EE9929B922CFE87E83351ED6 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC51A86A25EE32E000ECB827 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCC5637725EF49E500064B76 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		FCC5637F25EF7B1800064B76 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = "Flash Chat iOS13/Messages.swift"; sourceTree = SOURCE_ROOT; };
+		FCC5637F25EF7B1800064B76 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = "Flash Chat iOS13/Models/Messages.swift"; sourceTree = SOURCE_ROOT; };
 		FCC5638225F06E0300064B76 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		FCC5638325F06E0300064B76 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +87,7 @@
 				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
 				FCC5637725EF49E500064B76 /* Constants.swift */,
-				0B628194235DF03A00E35CAF /* Models */,
+				FCE960FF25F85021007158FB /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
@@ -119,14 +119,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0B628194235DF03A00E35CAF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FCC5637F25EF7B1800064B76 /* Messages.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		3814DC18A572D3471085149E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +134,14 @@
 				EE9929B922CFE87E83351ED6 /* Pods_Flash_Chat_iOS13.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE960FF25F85021007158FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5637F25EF7B1800064B76 /* Messages.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

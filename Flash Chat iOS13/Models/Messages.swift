@@ -9,6 +9,6 @@
 import Foundation
 
 struct Message {
-    let sender: String //eMail Address
+    let sender: String
     let body: String
 }
